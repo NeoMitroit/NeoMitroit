@@ -1393,9 +1393,9 @@ class mainCog(commands.Cog):
 	async def menu_(self, ctx):
 		if ctx.message.channel.id == basicSetting[7]:
 			command_list = ''
-			command_list += ','.join(command[2]) + '\n'     #!설정확인
-			command_list += ','.join(command[3]) + '\n'     #!채널확인
-			command_list += ','.join(command[4]) + ' [채널명]\n'     #!채널이동
+			command_list += ','.join(command[2]) + '\n'     #!설정체크
+			command_list += ','.join(command[3]) + '\n'     #!채널체크
+			command_list += ','.join(command[4]) + ' [채널명]\n'     #!채널이돔
 			command_list += ','.join(command[5]) + ' ※ 관리자만 실행 가능\n'     #!소환
 			command_list += ','.join(command[6]) + '\n'     #!불러오기
 			command_list += ','.join(command[7]) + '\n'     #!초기화
